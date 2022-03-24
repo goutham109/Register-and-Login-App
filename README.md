@@ -1,4 +1,6 @@
 # Register-and-Login-App
+**Note :** After you click login, click 'ok' when the page prompt appears to get into the profile page.
+
 These Project is hosted live on Heroku and is available on : https://register-and-loginapp.herokuapp.com/
 # Getting Started with Create React App
 
