@@ -22,7 +22,7 @@ const Homepage = ({ user, setLoginUser }) => {
   const updateDetails = () => {
     const { userEmail, age, gender, mobile, dob } = details;
     if (userEmail && age && gender && mobile && dob) {
-      axios.post("http://localhost:9002/updateProfile", details).then((res) => {
+      axios.post("/updateProfile", details).then((res) => {
         alert(res.data.message);
       });
     } else {
